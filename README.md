@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Codex Plugin 完整示例
 
 这是一个可以发布到 GitHub，并通过 Codex Marketplace 安装的完整示例仓库。
@@ -134,6 +133,3 @@ codex plugin marketplace upgrade example-codex-plugins
 ## 许可证
 
 本示例使用 MIT License。
-=======
-# codex-plugin-example
->>>>>>> origin/main
