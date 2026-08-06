@@ -1,0 +1,34 @@
+{
+  "name": "wechat-article-reviewer",
+  "version": "0.1.0",
+  "description": "审校中文公众号文章的事实边界、结构、表达和作者辨识度。",
+  "author": {
+    "name": "王灼洲",
+    "url": "https://github.com/wangzhuozhou/codex-plugin-example"
+  },
+  "homepage": "https://github.com/wangzhuozhou/codex-plugin-example#readme",
+  "repository": "https://github.com/wangzhuozhou/codex-plugin-example",
+  "license": "MIT",
+  "keywords": [
+    "wechat",
+    "writing",
+    "review",
+    "chinese"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "公众号文章审校助手",
+    "shortDescription": "检查事实边界、结构与表达",
+    "longDescription": "对中文公众号文章进行五维评分，识别证据风险、结构重复、表达问题和作者辨识度不足，并给出有优先级的修改建议。",
+    "developerName": "王灼洲",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "审校这篇公众号文章，先评分再提出修改建议。",
+      "检查这篇文章的事实边界和作者辨识度。"
+    ],
+    "brandColor": "#176B5B"
+  }
+}
